@@ -1,0 +1,179 @@
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+/* Style the search box inside the navigation bar */
+.Search input[type=text] {
+    float: right;
+    display: block;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    Font Family: Roboto;
+    Font Style: Regular;
+    Font Size: 16px;
+    Line Height: 24px;
+    Align: Left;
+    background-color: #FFFFFF;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  width: 375px;
+  background-color: #191919;
+  min-height: 100px;
+  font-size: 87%;
+  font-weight: 500;
+  padding: 1em;
+  }
+
+.navigationmenu {
+  text-align: left;
+  width: 100px;
+  background-color: #FF8C22;
+  color: #FFFFFF;
+  border: #9E9E9E;
+  padding:1%;
+}
+
+.statusBar {
+  text-align: right;
+  width: 700px;
+  background-color: #F08246;
+  color: #FFFFFF;
+  padding:1%;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+}
+
+.input{
+    padding:0;
+}
+
+.appTitle {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  width: 00px;
+  line-height: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #FF8C22;
+  border-left: none;
+  border-right: none;
+}
+
+.more_vert {
+  text-align: right;
+  background-color: #FF8C22;
+  color: #FFFFFF;
+  border-left: none;
+}
+
+.arrow{
+  background-color: #FFFFFF;
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+.search {
+  outline: none;
+  position: absolute;
+  width: 400px;
+  Font Family: Roboto;
+  Font Style: Regular;
+  Font Size: 16px
+  Line Height: 24px
+  text-align: Left;
+  background-color: #FFFFFF;
+  border shadow: 1px solid white;
+  border-radius: 2px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+table, td, th {
+    border: 1px solid #E0E0E0;
+    }
+
+td {
+    padding: 5px;
+    white-space: nowrap;  /* Use this to remove the wrapping of text, especially Jackson Park Express text  */
+}
+
+.number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  width: 2%;
+  padding-top: 10px;
+  line-height: 5px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #191919;
+  border-bottom-style: 1px solid grey;
+}
+
+.circle {
+  vertical-align: middle;
+  border: none;
+}
+
+td.circle:before {
+  content: attr(data-char);
+  display: block;
+  background: #D1D3D4;
+  width: 40px;
+  height: 40px;
+  line-height:40px;
+  text-align:center;
+  border-radius: 50%;
+  margin:0 inherit;
+}
+
+.middle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #9E9E9E;
+  background-color: #191919;
+  border-bottom-style: 1px solid #E0E0E0;
+  border-left: none;
+  border-right: none;
+  }
+
+.last {
+  padding-left: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.0357143em;
+  text-transform: inherit;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #191919;
+  color: #FF8C22;
+  border-bottom-style: outset 1px solid #E0E0E0;
+  border-left: none;
+  }
+
+  .bottom_icons{
+    text-align: center;
+    color: #FFFFFF;
+  }
