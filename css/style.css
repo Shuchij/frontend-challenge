@@ -1,59 +1,56 @@
 *, *:before, *:after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Style the search box inside the navigation bar */
-.Search input[type=text] {
-    float: right;
+ input[type=search] {
+    float: left;
     display: block;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    Font Family: Roboto;
-    Font Style: Regular;
-    Font Size: 16px;
-    Line Height: 24px;
-    Align: Left;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
     background-color: #FFFFFF;
+    color: #9E9E9E;
+    margin: 0;
+    min-width: 360px;
+    min-height: 100%;
+    letter-spacing: 4px;
+	  text-shadow: 0 0 grey;
+	  word-spacing: 20px;
 }
+
+.arrow_back {
+  float: left;
+  background-color: #FFFFFF;
+  padding: 5px;
+  padding-left: 8px;
+  }
 
 body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   width: 375px;
-  background-color: #191919;
-  min-height: 100px;
-  font-size: 87%;
-  font-weight: 500;
+  background-color: white;
+  min-height: 50%;
   padding: 1em;
   }
 
 .navigationmenu {
-  text-align: left;
-  width: 100px;
+  float: left;
+  width: 100%;
   background-color: #FF8C22;
   color: #FFFFFF;
-  border: #9E9E9E;
   padding:1%;
 }
 
 .statusBar {
   text-align: right;
-  width: 700px;
+  width: 100%;
   background-color: #F08246;
   color: #FFFFFF;
-  padding:1%;
-}
-
-input {
-    height: 50px;
-    width: 100%;
-}
-
-.input{
-    padding:0;
+  padding: 0%;
 }
 
 .appTitle {
@@ -61,71 +58,70 @@ input {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  width: 00px;
+  width: 100%;
   line-height: normal;
   font-size: 20px;
   color: #FFFFFF;
   background-color: #FF8C22;
-  border-left: none;
-  border-right: none;
 }
 
 .more_vert {
   text-align: right;
   background-color: #FF8C22;
   color: #FFFFFF;
-  border-left: none;
 }
 
-.arrow{
-  background-color: #FFFFFF;
-  padding-left: 8px;
-  vertical-align: middle;
+input {
+    height: 40px;
+    width: 80%;
 }
-
-.search {
-  outline: none;
-  position: absolute;
-  width: 400px;
-  Font Family: Roboto;
-  Font Style: Regular;
-  Font Size: 16px
-  Line Height: 24px
-  text-align: Left;
-  background-color: #FFFFFF;
-  border shadow: 1px solid white;
-  border-radius: 2px;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  text-decoration: none;
-}
-
-table, td, th {
-    border: 1px solid #E0E0E0;
-    }
 
 td {
-    padding: 5px;
+    padding: 3px;
     white-space: nowrap;  /* Use this to remove the wrapping of text, especially Jackson Park Express text  */
-}
-
-.number {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  width: 2%;
-  padding-top: 10px;
-  line-height: 5px;
-  font-size: 14px;
-  text-align: center;
-  background-color: #191919;
-  border-bottom-style: 1px solid grey;
 }
 
 .circle {
   vertical-align: middle;
   border: none;
+  font size: 20px;
+}
+
+.middle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  width: 2%;
+  padding-top: 5px;
+  line-height: 5px;
+  font-size: 14px;
+  text-align: center;
+  border-bottom-style: 1px solid grey;
+}
+
+.last {
+  Font Family: Roboto;
+  Font Style: Medium;
+  Font Size: 14px;
+  Line Height: 24px;
+  text-align: left;
+  Letter Spacing: 3.57%
+  font color: #FF8C22;
+  }
+
+.Frequency {
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #F08246;
+  text-align: left;
+}
+
+tbody{
+  background-color: black;
 }
 
 td.circle:before {
@@ -150,7 +146,6 @@ td.circle:before {
   margin-left: 5%;
   margin-right: 5%;
   color: #9E9E9E;
-  background-color: #191919;
   border-bottom-style: 1px solid #E0E0E0;
   border-left: none;
   border-right: none;
@@ -167,7 +162,6 @@ td.circle:before {
   text-transform: inherit;
   text-align: center;
   vertical-align: middle;
-  background-color: #191919;
   color: #FF8C22;
   border-bottom-style: outset 1px solid #E0E0E0;
   border-left: none;
