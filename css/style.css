@@ -2,9 +2,56 @@
   box-sizing: border-box;
 }
 
+nav {
+    display: block;
+    background-color: #FF8C22;
+    text-align: left;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    background-color: #FF8C22;
+    color: #FFFFFF;
+    margin: 0%;
+    padding: 1%;
+    width: 100%;
+}
+
+.more_vert {
+  text-align: right;
+  background-color: #FF8C22;
+  color: #FFFFFF;
+}
+
+.navigationmenu {
+  float: left;
+  width: 100%;
+  background-color: #FF8C22;
+  color: #FFFFFF;
+  padding:1%;
+}
+
+.statusBar {
+  text-align: right;
+  width: 100%;
+  background-color: #F08246;
+  color: #FFFFFF;
+  padding: 0%;
+}
+
+.appTitle {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+
+  line-height: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #FF8C22;
+}
+
 /* Style the search box inside the navigation bar */
  input[type=search] {
-    float: left;
+
     display: block;
     font-family: Roboto;
     font-style: normal;
@@ -29,47 +76,13 @@
 
 body {
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   margin: 0 auto;
   width: 375px;
   background-color: white;
   min-height: 50%;
-  padding: 1em;
+  padding: 1%;
   }
-
-.navigationmenu {
-  float: left;
-  width: 100%;
-  background-color: #FF8C22;
-  color: #FFFFFF;
-  padding:1%;
-}
-
-.statusBar {
-  text-align: right;
-  width: 100%;
-  background-color: #F08246;
-  color: #FFFFFF;
-  padding: 0%;
-}
-
-.appTitle {
-  text-align: center;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  width: 100%;
-  line-height: normal;
-  font-size: 20px;
-  color: #FFFFFF;
-  background-color: #FF8C22;
-}
-
-.more_vert {
-  text-align: right;
-  background-color: #FF8C22;
-  color: #FFFFFF;
-}
 
 input {
     height: 40px;
@@ -100,27 +113,16 @@ td {
 }
 
 .last {
-  Font Family: Roboto;
-  Font Style: Medium;
-  Font Size: 14px;
-  Line Height: 24px;
+  font-family: "Roboto";
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 24px;
   text-align: left;
-  Letter Spacing: 3.57%
-  font color: #FF8C22;
+  letter-spacing: 3.57%;
+  color: #FF8C22;
   }
 
-.Frequency {
-  display: inline-block;
-  font-family: Roboto;
-  font-style: normal;
-  line-height: 20px;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #F08246;
-  text-align: left;
-}
-
-tbody{
+tbody {
   background-color: black;
 }
 
