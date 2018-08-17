@@ -5,24 +5,29 @@
 nav {
     display: block;
     background-color: #FF8C22;
-    text-align: left;
     font-size: 20px;
     font-family: Roboto, sans-serif;
     background-color: #FF8C22;
     color: #FFFFFF;
     margin: 0%;
-    padding: 1%;
+    padding-left: 8%;
+    padding-bottom:4%;
     width: 100%;
-}
+    border-width: thin;
+    border-color: inherit;
+    float: inherit;
+  }
 
 .more_vert {
   text-align: right;
   background-color: #FF8C22;
   color: #FFFFFF;
-}
+  padding-bottom: 5%;
+  }
 
 .navigationmenu {
   float: left;
+
   width: 100%;
   background-color: #FF8C22;
   color: #FFFFFF;
@@ -34,45 +39,48 @@ nav {
   width: 100%;
   background-color: #F08246;
   color: #FFFFFF;
-  padding: 0%;
+  padding-right: 1%;
 }
 
 .appTitle {
   text-align: center;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 100;
-
-  line-height: normal;
+  font-weight: bold;
+  line-height:
   font-size: 20px;
   color: #FFFFFF;
   background-color: #FF8C22;
+  padding: inherit;
 }
 
 /* Style the search box inside the navigation bar */
- input[type=search] {
-
+ .search-bar {
     display: block;
-    font-family: Roboto;
-    font-style: normal;
     font-size: 16px;
-    text-align: left;
     background-color: #FFFFFF;
     color: #9E9E9E;
-    margin: 0;
-    min-width: 360px;
-    min-height: 100%;
-    letter-spacing: 4px;
-	  text-shadow: 0 0 grey;
-	  word-spacing: 20px;
-}
+    width: 90%;
+    height: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    position: relative;
+    line-height: 30px;
+
+  }
+
+  .search-bar-text {
+    display: inline;
+
+  }
 
 .arrow_back {
-  float: left;
   background-color: #FFFFFF;
-  padding: 5px;
-  padding-left: 8px;
+  padding-left: 5%;
+  padding-top: 2%;
+  border-style: outset;
   }
+
 
 body {
   font-size: 14px;
@@ -84,11 +92,6 @@ body {
   padding: 1%;
   }
 
-input {
-    height: 40px;
-    width: 80%;
-}
-
 td {
     padding: 3px;
     white-space: nowrap;  /* Use this to remove the wrapping of text, especially Jackson Park Express text  */
@@ -98,6 +101,7 @@ td {
   vertical-align: middle;
   border: none;
   font size: 20px;
+  padding-left: 2%;
 }
 
 .middle {
@@ -148,7 +152,7 @@ td.circle:before {
   margin-left: 5%;
   margin-right: 5%;
   color: #9E9E9E;
-  border-bottom-style: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
   border-left: none;
   border-right: none;
   }
@@ -165,11 +169,13 @@ td.circle:before {
   text-align: center;
   vertical-align: middle;
   color: #FF8C22;
-  border-bottom-style: outset 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
   border-left: none;
   }
 
   .bottom_icons{
     text-align: center;
     color: #FFFFFF;
+    padding-top: 3%;
+    padding-bottom: 1%;
   }
