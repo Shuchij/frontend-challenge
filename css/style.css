@@ -91,59 +91,83 @@ tbody {
   background-color: white;
 }
 
-td.circle:before {
-  content: attr(data-char);
-  display: block;
-  background: #D1D3D4;
-  width: 40px;
-  height: 40px;
-  line-height:40px;
-  text-align: center;
-  border-radius: 50%;
-  margin:0 inherit;
-  vertical-align: middle;
-  border: none;
-  font size: 1em;
-  padding-left: 2%;
-}
-
 .circle {
-  padding-top: 5%;
+  padding: 2%;
+  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 .middle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  line-height: 23px;
+  line-height: 20px;
   font-size: 0.875em;
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
   color: #9E9E9E;
-  vertical-align: text-top;
+  vertical-align: middle;
+  vertical-align: baseline;
   border-bottom: 1px solid #E0E0E0;
   width: 2%;
+  padding: 2%;
   border-bottom-style: 1px solid grey;
   }
 
+.middleOS{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  font-size: 0.875em;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #9E9E9E;
+  vertical-align: middle;
+  vertical-align: baseline;
+  border-bottom: 1px solid #E0E0E0;
+  width: 2%;
+  padding: 2%;
+  border-bottom-style: none;
+}
+
   .last {
-  padding: 6% 2%;
+  padding: 8% 2%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 20px;
   font-size: 0.875em;
   text-align: right;
   vertical-align: middle;
+  vertical-align: baseline;
   color: #FF8C22;
   border-bottom: 1px solid #E0E0E0;
   }
 
-  .bottom_icons{
+.lastOS{
+  padding: 8% 2%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 0.875em;
+  text-align: right;
+  vertical-align: middle;
+  vertical-align: baseline;
+  color: #FF8C22;
+  border-bottom-style: none;
+}
+
+  .footer{
     text-align: center;
     color: #FFFFFF;
-    padding-top: 3%;
-    padding-bottom: 1%;
+    padding-top: 1%;
     background-color: black;
+  }
+
+  .footer-background{
+    padding-bottom: 1%;
   }
