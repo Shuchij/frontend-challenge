@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+
+html {
+  overflow-y: hidden;
+}
+
+
 nav {
     display: block;
     background-color: #FF8C22;
@@ -15,7 +21,7 @@ nav {
   text-align: right;
   background-color: #FF8C22;
   color: #FFFFFF;
-  padding-left: 19%;
+  padding-left: 35%;
   }
 
 .navigationmenu {
@@ -46,8 +52,9 @@ nav {
   font-size: 20px;
   font-weight: normal;
   color: #FFFFFF;
-  padding-left: 18%;
-  padding-bottom: 3%;
+  padding-left: 30%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 /* Style the search box inside the navigation bar */
@@ -78,9 +85,10 @@ body {
   margin: 0 auto;
   width: 375px;
   background-color: grey;
-  min-height: 50%;
-  padding: 1%;
-  }
+  height: 700px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
 td {
     padding: 3px;
