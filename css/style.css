@@ -2,11 +2,9 @@
   box-sizing: border-box;
 }
 
-
 html {
   overflow-y: hidden;
 }
-
 
 nav {
     display: block;
@@ -85,7 +83,7 @@ body {
   margin: 0 auto;
   width: 375px;
   background-color: grey;
-  height: 700px;
+  height: 600px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
